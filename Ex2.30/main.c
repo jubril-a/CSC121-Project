@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main() {
+int main(void) {
     int number, remainder,
         firstDigit, secondDigit, thirdDigit, fourthDigit, fifthDigit;
 

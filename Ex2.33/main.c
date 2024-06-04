@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main() {
+int main(void) {
     float milesDriven, gasolinePrice, milesPerGallon, parkingFees, tolls;
 
     printf("Enter Total miles driven per day: ");
