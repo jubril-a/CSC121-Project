@@ -7,39 +7,54 @@ int main(void) {
     // TASK A
     printf("Task A:\n");
     if ( y == 8 ) {
+
         if ( x == 5 ) {
-            puts( "@@@@@" );
-            puts( "$$$$$" );
-            puts( "&&&&&" );
+             puts( "@@@@@" );
+        } else {
+            puts( "#####" );
         }
+
+        puts( "$$$$$" );
+        puts( "&&&&&" );
     }
 
     // TASK B
-    printf("Task B:\n");
+    printf("\nTask B:\n");
     if ( y == 8 ) {
-        if ( x == 5 ) {
-            puts( "@@@@@" );
-        }
-    }
 
+        if ( x == 5 ) {
+            puts( "@@@@@" );
+        } else {
+            puts( "#####" );
+            puts( "$$$$$" );
+            puts( "&&&&&" );  
+        }
+    
+    }
+    
     // TASK C
-    printf("Task C:\n");
+    printf("\nTask C:\n");
     if ( y == 8 ) {
         if ( x == 5 ) {
             puts( "@@@@@" );
-            puts( "&&&&&" );
+        } else {
+            puts( "#####" );
+            puts( "$$$$$" );
         }
+        puts( "&&&&&" ); 
     }
 
     y = 7;
 
     // TASK D
-    printf("Task D:\n");
-    if ( y == 7 ) {
+    printf("\nTask D:\n");
+    if ( y == 8 ) {
         if ( x == 5 ) {
-            puts( "#####" );
-            puts( "$$$$$" );
-            puts( "&&&&&" ); 
+           puts( "@@@@@" ); 
         }
-    }
+    } else {
+        puts( "#####" );
+        puts( "$$$$$" );
+        puts( "&&&&&" ); 
+    }  
 }
