@@ -14,7 +14,7 @@ double calculateArea(double a, double b, double c) {
 int main(void) {
     double side_a, side_b, side_c, area;
 
-    printf("Enter the sides of the traingle separated by space: ");
+    printf("Enter the sides of the traingle separated by spaces: ");
     scanf("%lf%lf%lf", &side_a, &side_b, &side_c);
 
     area = calculateArea(side_a, side_b, side_c);
