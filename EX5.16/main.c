@@ -20,8 +20,8 @@ int main(void) {
     area = calculateArea(side_a, side_b, side_c);
 
     if (area == -1) {
-        printf("The sides %lf, %lf, and %lf do not form a valid triangle.", side_a, side_b, side_c);
+        printf("\nThe sides %lf, %lf, and %lf do not form a valid triangle.", side_a, side_b, side_c);
     } else {     
-        printf("The area of the triangle with sides %lf, %lf, and %lf is %lf", side_a, side_b, side_c, area);
+        printf("\nThe area of the triangle with sides %lf, %lf, and %lf is %lf", side_a, side_b, side_c, area);
     }    
 }
